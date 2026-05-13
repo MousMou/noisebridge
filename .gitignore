@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+pytest-cache-files-*/
+.tox/
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Node (preprint build tools)
+node_modules/
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Build artifacts
+*.pdf
+*.docx
+SNN_NR_Preprint_v1.*
+make_preprint.js
+package.json
+
+# Private / not for public repo
+memoria/
+FractKit/
+QuantumJarvis/
+TT-Compress/
+models/
+resultados/
+diagnostics/
+logs/
+*.jsonl
+*.json
+!examples/**/*.json
+
+# IBM Quantum tokens — never commit
+.env
+*.env
+ibm_token.txt
+token.txt
+
+# Local test scripts (kept private)
+test_ibm_*.py
+test_iqm_*.py
+bench_*.py

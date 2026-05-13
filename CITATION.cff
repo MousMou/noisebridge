@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use NoiseBridge in your research, please cite it as below."
+type: software
+title: "NoiseBridge: Zero-Overhead Syndrome Decoding via Centering-Matrix SNN"
+version: 0.3.0
+date-released: "2026-05-13"
+license: MIT
+repository-code: "https://github.com/MousMou/noisebridge"
+url: "https://github.com/MousMou/noisebridge"
+authors:
+  - name: "FractKit Project"
+    email: partrabajo613@gmail.com
+abstract: >
+  NoiseBridge applies a centering-matrix Syndrome Error Corrector (SNN-SEC)
+  as post-processing for quantum measurement distributions. Zero additional
+  QPU shots required. Achieves LER_SNN = LER_raw (zero decoder overhead) on
+  IBM Kingston real hardware at p=0.25, and 1.72x improvement over the standard
+  lookup decoder at p=0.10 (Surface Code d=3, depth=26, CZ=25, SWAP=0).
+  Combined REM + SNN pipeline validated on IQM Garnet real QPU: avg +0.057
+  fidelity (6/6 circuits positive).
+keywords:
+  - quantum computing
+  - quantum error correction
+  - noise mitigation
+  - spiking neural network
+  - surface code
+  - syndrome decoding
+  - NISQ
+  - IBM Quantum
+  - IQM
+references:
+  - type: article
+    title: >
+      Zero-Overhead Syndrome Decoding on Real Quantum Hardware via a
+      Centering-Matrix SNN Syndrome Error Corrector
+    authors:
+      - name: "FractKit Project"
+    year: 2026
+    url: "https://zenodo.org/record/XXXXXXX"
+    notes: "Zenodo preprint — DOI to be assigned upon upload"

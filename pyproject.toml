@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "noisebridge"
+version = "0.3.0"
+description = "Adaptive quantum noise mitigation via Spiking Neural Networks (SNN-NR)"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "FractKit Project", email = "partrabajo613@gmail.com"}
+]
+keywords = [
+    "quantum computing", "noise mitigation", "spiking neural network",
+    "NISQ", "quantum error mitigation", "IBM Quantum", "IQM", "qBraid"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.21",
+]
+
+[project.optional-dependencies]
+qiskit = ["qiskit>=1.0", "qiskit-aer>=0.13"]
+dev    = ["pytest", "build", "twine"]
+
+[project.urls]
+Homepage   = "https://github.com/MousMou/noisebridge"
+Repository = "https://github.com/MousMou/noisebridge"
+Issues     = "https://github.com/MousMou/noisebridge/issues"
+
+[tool.setuptools.packages.find]
