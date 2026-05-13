@@ -178,7 +178,7 @@ If you use NoiseBridge in your research, please cite:
 
 Preprint: *Zero-Overhead Syndrome Decoding on Real Quantum Hardware via a
 Centering-Matrix SNN Syndrome Error Corrector* — FractKit Project, 2026.
-Available on Zenodo (DOI pending).
+Available on Zenodo (10.5281/zenodo.20157839).
 
 ---
 
