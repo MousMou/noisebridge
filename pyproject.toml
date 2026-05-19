@@ -7,7 +7,7 @@ name = "noisebridge"
 version = "0.3.0"
 description = "Adaptive quantum noise mitigation via Spiking Neural Networks (SNN-NR)"
 readme = "README.md"
-license = {text = "MIT"}
+license = {text = "BSL-1.1"}
 authors = [
     {name = "FractKit Project", email = "partrabajo613@gmail.com"}
 ]
